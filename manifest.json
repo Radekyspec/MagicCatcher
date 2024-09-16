@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Magic Catcher",
+    "version": "1.0",
+    "permissions": [
+        "tabs",
+        "debugger"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": [
+        "http://api.lumiclass.com/*",
+        "https://api.lumiclass.com/*",
+        "http://academy.easy-group.cn/v2/*",
+        "https://academy.easy-group.cn/v2/*"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "hello_extensions.png"
+    }
+}

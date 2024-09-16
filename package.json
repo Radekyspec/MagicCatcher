@@ -1,0 +1,14 @@
+{
+  "name": "ezcatcher",
+  "version": "1.0.0",
+  "description": "Magic + ChatGPT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RS",
+  "license": "MIT",
+  "dependencies": {
+    "chrome-types": "^0.1.305"
+  }
+}
